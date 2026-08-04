@@ -1,12 +1,12 @@
 name: Application
 
 on:
-  # push:
-  #   branches:
-  #     - main
-  #   paths:
-  #     - 'app/**'
-  #     - '.github/workflows/application.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'app/**'
+      - '.github/workflows/application.yml'
   workflow_dispatch:
 
 jobs:
